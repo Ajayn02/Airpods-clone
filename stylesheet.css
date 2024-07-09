@@ -205,6 +205,8 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 .content-3{
     position: absolute;
@@ -214,14 +216,12 @@ body {
     text-align: center;
 }
 .col3{
-    /* border: 1px solid black; */
+    border: 1px solid black;
     border-radius: 16px;
 }
 .bl-2{
     position: absolute;
-   bottom:  0;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    bottom:10px;
 
 }
 .b2{
@@ -230,10 +230,19 @@ body {
 .a2{
 color:rgb(0, 119, 237); 
 }
+
+@media (max-width:600px) {
+
+     .background-image{
+        height: 80vh;
+    }
+}
+
+
 @media (max-width:450px) {
 
     .background-image{
-        height: 80vh;
+        height: 60vh;
     }
     .b2{
         font-size: medium;
@@ -242,11 +251,15 @@ color:rgb(0, 119, 237);
     .a2{
         font-size: medium;
     }
-    .bl-2{
-        bottom:  0;
-        left: 50%;
-     display: flex;
-     align-items: center;
-     justify-content: center;
+    .col3-h1{
+        font-size: 45px;
+        
     }
+    .content-3{
+        top: 40%;
+    }
+    .sub{
+        font-size: 20px;
+    }
+  
 }
