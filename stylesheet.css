@@ -216,16 +216,18 @@ body {
     text-align: center;
 }
 .col3{
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 16px;
 }
 .bl-2{
     position: absolute;
     bottom:10px;
+   
 
 }
 .b2{
     background-color: rgb(0, 119, 237);
+    color: white;
 }
 .a2{
 color:rgb(0, 119, 237); 
@@ -234,7 +236,7 @@ color:rgb(0, 119, 237);
 @media (max-width:600px) {
 
      .background-image{
-        height: 80vh;
+        height: 75vh;
     }
 }
 
@@ -242,7 +244,7 @@ color:rgb(0, 119, 237);
 @media (max-width:450px) {
 
     .background-image{
-        height: 60vh;
+        height: 55vh;
     }
     .b2{
         font-size: medium;
@@ -256,10 +258,23 @@ color:rgb(0, 119, 237);
         
     }
     .content-3{
-        top: 40%;
+        top: 38%;
     }
     .sub{
         font-size: 20px;
     }
   
+}
+
+/* section-4 */
+
+.r4{
+    padding:25px;
+}
+.bg-2{
+    background-image: none;
+}
+.bgi2,.bgi1{
+    padding: 20px;
+    padding-bottom: 65px;
 }
