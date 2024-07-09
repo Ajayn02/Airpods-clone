@@ -278,3 +278,9 @@ color:rgb(0, 119, 237);
     padding: 20px;
     padding-bottom: 65px;
 }
+@media (max-width:450px){
+    .bgi2,.bgi1{
+        padding: 10px;
+        padding-bottom: 65px;
+    } 
+}
